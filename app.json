@@ -5,8 +5,6 @@
     "name": "dongguk-bob-app",
     "slug": "dongguk-bob-app",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }

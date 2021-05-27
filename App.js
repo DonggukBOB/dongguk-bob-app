@@ -1,11 +1,11 @@
-import React from 'react';
-import { StyleSheet } from 'react-native';
+import React from "react";
+import { StyleSheet } from "react-native";
 import WebView from "react-native-webview";
 
 export default function App() {
   return (
     <WebView
-      source={{uri: "https://donggukbob.github.io/dongguk-bob/"}}
+      source={{ uri: "https://donggukbob.github.io/dongguk-bob/" }}
       style={styles.container}
     />
   );
@@ -14,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     marginTop: 40,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
