@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet } from "react-native";
+import { Constants } from "react-native-unimodules";
 import WebView from "react-native-webview";
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 40,
+    marginTop: Constants.statusBarHeight,
     alignItems: "center",
     justifyContent: "center",
   },
